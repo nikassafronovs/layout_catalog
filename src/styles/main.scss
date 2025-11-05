@@ -17,12 +17,6 @@ body {
   place-items: center;
 }
 
-@media (min-width: 300px) {
-  .main {
-    --column-count: 1;
-  }
-}
-
 @media (min-width: 488px) {
   .main {
     --column-count: 2;

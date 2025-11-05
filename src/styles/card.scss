@@ -26,6 +26,10 @@
     line-height: 18px;
     font-weight: 500;
     margin-bottom: 4px;
+
+    &:hover {
+      color: $card-title-hover-color;
+    }
   }
 
   &__code {
