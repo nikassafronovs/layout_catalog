@@ -18,6 +18,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     z-index: 10;
     position: relative;
+    cursor: pointer;
   }
 
   &__name {
@@ -26,10 +27,12 @@
     line-height: 18px;
     font-weight: 500;
     margin-bottom: 4px;
+    transition:
+    color 0.3s ease;
+  }
 
-    &:hover {
-      color: $card-title-hover-color;
-    }
+  &:hover .card__name {
+    color: $card-title-hover-color;
   }
 
   &__code {
